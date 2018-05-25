@@ -1,0 +1,16 @@
+{
+
+    "manifest_version": 2,
+    "name": "Steemoji",
+    "version": "2.0",
+  
+    "description": "Adds emojis for Steemit MarkDown.",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.steemit.com/*","*://*.busy.org/*"],
+        "js": ["jquery.js","sweetalert.js","steemoji.js"]
+      }
+    ]
+  
+  }
